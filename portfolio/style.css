@@ -1,0 +1,82 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color:black ;
+}
+#nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+#img1{
+    height: 250px;
+    width: 250px;
+    border-radius: 300px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+    
+#name1{
+    display: inline;
+    color: azure;
+    margin-left: 400px;
+    margin-top: 0px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+ #intro1{
+    display: inline-block;
+    color: azure;
+    margin-left: 30px;
+    margin-top: 150px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+
+ }
+ .table{
+    display: flex;
+    justify-content: space-around;
+    
+    
+ }
+
+ #qual{
+    color: azure;
+    border: 1px solid rgb(241, 240, 240);
+    border-collapse: collapse;
+    text-align: center;
+
+}
+td{
+    padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+ .list{
+    text-align: center;
+
+ }
+
+ #skills{
+    color: azure;
+    text-align: left;
+    margin-left: -200px;
+ }
+ .titles{
+    display: flex;
+    justify-content:space-around ;
+ }
+ #check{
+    color: azure;
+    margin-left: -100px;
+}
+ 
+#contact{
+    color: azure;
+    display: flex;
+    justify-content:center ;
+    padding-left: 20px;
+}
