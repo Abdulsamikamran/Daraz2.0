@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="custom.css">
+    <title>Daraz 2.0</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <nav class="navbar navbar-expand-sm fixed-top"
+            style="background-color: white; height: 7em; padding-top: 3em; padding-bottom: 5em;">
+            <div class="dropdown">
+                <button type="button" class="btn btn-outline-light text-dark dropdown-toggle" type="button"
+                    id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"
+                    style="background-color: white; position:absolute; margin-left: 10em; margin-top: 2.6em ; color: black; ">
+                    Categories
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">Groceries & Pets</a></li>
+                    <li><a class="dropdown-item" href="#">Health</a></li>
+                    <li><a class="dropdown-item" href="#">Men's Fashion</a></li>
+                    <li><a class="dropdown-item" href="#">Women's Fashion</a></li>
+                    <li><a class="dropdown-item" href="#">Home & Lifestyle</a></li>
+                    <li><a class="dropdown-item" href="#">Electronic Devices</a></li>
+                </ul>
+            </div>
+            <a class="navbar-brand" href="javascript:void(0)">
+                <img style="height: 4.25em; width: 9.00em ; margin-left: 4.25em;" src="Daraz-Logo.png" alt="">
+            </a>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <form class="d-flex" style="width: 45.7em; height:3em ; margin-left: 3.5em; margin-top: 0.5em;">
+                    <input class="form-control me-2" type="text" placeholder="Search in Daraz"
+                        style="background-color: rgb(240, 245, 249);">
+                </form>
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">
+                            <img style="height: 3em; width:3em; margin-left: -0.99em; margin-top: 0.4em;"
+                                src="search.png">
+
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">
+                            <img style="height: 1.7em; width:1.7em;; margin-top: 0.76em; " src="shopping-cart.png">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">
+                            <img style="height: 2.7em; width:11.2em; margin-left: 2em;"
+                                src="https://icms-image.slatic.net/images/ims-web/7a379e2e-4b65-4617-9188-94e0c768cd9d.png">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div style="padding-top: 7em;" class="carousel-item active">
+                    <img src="https://icms-image.slatic.net/images/ims-web/abfa4109-d36f-4721-abac-4169b6199221.jpg"
+                        alt="Los Angeles" class="d-block w-100">
+                </div>
+                <div style="padding-top: 7em; height: 40em;" class="carousel-item">
+                    <img src="lusini-banner-landscape-schuh-explorer-en-phone.webp" alt="Chicago" class="d-block w-100">
+                </div>
+                <div style="padding-top: 7em; height: 40em;" class="carousel-item">
+                    <img src="800w-Nj601dgGOrQ.webp" alt="New York" class="d-block w-100">
+                </div>
+            </div>
+
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+        <div style="display: flex; justify-content: center; margin-top: 2em;">
+            <img style="height:9em; width: 70em; border-radius: 1em;"
+                src="https://gcp-img.slatic.net/lazada/ef0ecf99-fbe7-437f-a752-937628c63c05_PK-1134-194.png" alt="">
+        </div>
+        <h2 style="margin-top: 2em;">Flash Sale</h2>
+
+        <div class="row" style="margin-top: 2em; margin-bottom: 5em;">
+            <div class="col">
+                <div class="card" style="width:200px">
+                    <img class="card-img-top" src="https://static-01.daraz.pk/p/462f1bd987a9cf233d44f59cad778106.jpg"
+                        alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h5 class="card-title">Earbuds M-39</h5>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width:200px">
+                    <img class="card-img-top" src="https://static-01.daraz.pk/p/12cb30efaf8f5f9295e8ba9075bebdf7.jpg"
+                        alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h5 class="card-title">Earbuds 101</h5>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width:200px">
+                    <img class="card-img-top" src="https://static-01.daraz.pk/p/83e66ef76f47306d55310406aa53ec5c.jpg"
+                        alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h5 class="card-title">Earbuds M-50</h5>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width:200px">
+                    <img class="card-img-top" src="https://static-01.daraz.pk/p/462f1bd987a9cf233d44f59cad778106.jpg"
+                        alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h5 class="card-title">Earbuds M-39</h5>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width:200px">
+                    <img class="card-img-top" src="https://static-01.daraz.pk/p/94da77cd55bef8989a81483130843119.jpg"
+                        alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h5 class="card-title">Earbuds 07</h5>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width:200px">
+                    <img class="card-img-top" src="https://static-01.daraz.pk/p/462f1bd987a9cf233d44f59cad778106.jpg"
+                        alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h5 class="card-title">Earbuds M-39</h5>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2>Popular</h2>
+        <div class="row" style="margin-top: 2em;">
+            <div class="col">
+                <div class="card" style="width:400px">
+                    <img class="card-img-top"
+                        src="https://static-01.daraz.pk/p/c8f5cad789d63f3e15ab1e2954f36733.jpg_400x400q75-product.jpg_.webp"
+                        alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <p class="card-text">Luxury Men's Business Quartz Stylish Square Dial Smooth Silicon Straps
+                            Casual Watch Top Brand Stylish Analog Watch for Boys Men's Watches for Women Men Sports
+                            Wrist Clock</p>
+                        <h4 class="card-title">RS.1000</h4>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+
+
+                <div class="card" style="width:400px">
+                    <img class="card-img-top"
+                        src="https://static-01.daraz.pk/p/ae4f81c93e4234e843647eecb8b7eaa1.jpg_400x400q75-product.jpg_.webp"
+                        alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <p class="card-text">highest level of craftsmanship in jewellery-making and the
+                            modern earrings are vibrant as it twinkles with every breath and beat of your heart; and the
+                            brilliant design makes it reflect light </p>
+                        <h4 class="card-title">Rs.200</h4>
+
+                        <a href="#" class="btn btn-primary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+
+                <div class="card" style="width:400px">
+                    <img class="card-img-top"
+                        src="https://static-01.daraz.pk/p/31c8475e90930a189ec503345ea2bd53.jpg_400x400q75-product.jpg_.webp"
+                        alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <p class="card-text">Chargeable Mini Fascial LCD Portable deep Muscle Massager leg deep full
+                            body relaxation machine Meridian Health Sports Fitness Equipment Material for Unisex</p>
+                        <h4 class="card-title">Rs.5000</h4>
+
+                        <a href="#" class="btn btn-primary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <footer class="text-center text-lg-start bg-light text-muted" style="margin-top: 5em;">
+            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+
+                <div class="me-5 d-none d-lg-block">
+                </div>
+
+            </section>
+
+            <section class="">
+                <div class="container text-center text-md-start mt-5">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <!-- Content -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                <i class="fas fa-gem me-3"></i>DARAZ
+                            </h6>
+                            <p>
+                                Daraz first made waves in Pakistan’s e-commerce market after its introduction in 2012.
+                                We have since grown to become Pakistan’s largest platform for online shopping with a
+                                network spread across Asia in Pakistan, Bangladesh, Sri Lanka, Myanmar, and
+                                Daraz.com.np. Our vision was to provide a safe, efficient online marketplace platform
+                                for vendors and customers across the country to come together. We started off
+                                exclusively as an online fashion retail platform and over the years expanded to become a
+                                complete one-stop solution for all your buying needs. Daraz prides itself on not being
+                                just another ecommerce venture in Asia. We work tirelessly to make sure that we provide
+                                users with the best online online shopping experience and value for their purchases.
+                                Whether you shop online through our website or our online shopping mobile App, you can
+                                expect easy navigation, customized recommendations, and a smooth online shopping
+                                experience guaranteed.
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Products
+                            </h6>
+                            <p>
+                                <a href="#!" class="text-reset">Wow Womens Week, Azaadi Sale 2022, Shopping Expo, 11 11
+                                    Sale, 12.12 Sale, Live Cricket Streaming, Online Bills, Core I5 Laptop, Gtx 1060,
+                                    Samsung A32, Samsung A51, Samsung A52, Samsung A71, Samsung A72, Samsung M31,
+                                    Samsung S20, Samsung S20 Ultra 5G, Samsung S21, Samsung S21 Ultra, Samsung Z Flip,
+                                    Tecno Camon 17, Tecno Spark 6, Vivo V20, Poco X3 Pro, Vivo V21, Vivo V21E, Vivo X70
+                                    Pro, Vivo Y12, Vivo Y12S, Vivo Y1S, Vivo Y20, Vivo Y51, Vivo Y51S, Oppo F19 Pro,
+                                    Oppo Reno 6, Xiaomi Poco F3, Xiaomi Poco M3, Xiaomi Poco X3, Xiaomi Poco X3 Gt,
+                                    Xiaomi Redmi 9C, Xiaomi Redmi Note 10 Pro, Sharp Aquos R2</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Useful links
+                            </h6>
+                            <p>
+                                <a href="#!" class="text-reset">SHOP WORLDWIDE
+                                    Singapore, Malaysia, Philipines, Indonesia, Vietnam, Thailand</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Settings</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Orders</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Help</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                            <p><i class="fas fa-home me-3"></i>219 Street 7, I-9/3 I 9/3 I-9, Islamabad, Islamabad
+                                Capital Territory 44000</p>
+                            <p>
+                                <i class="fas fa-envelope me-3"></i>
+                                daraz@gmail.com
+                            </p>
+                            <p><i class="fas fa-phone me-3"></i>(021) 111 132 729</p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+            <div class="text-center p-4" style="background-color:rgb(229,235,239);">
+                © 2021 Copyright:
+                <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Daraz.com</a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
