@@ -4,7 +4,7 @@ let users = [
     lastName: "user11",
     age: 22,
     gender: "M",
-    lastOrderDate: 22_2,
+    lastOrderDate: 2022 - 08 - 08,
     totalOrders: 78,
   },
   {
@@ -12,7 +12,7 @@ let users = [
     lastName: "user22",
     age: 22,
     gender: "M",
-    lastOrderDate: 19_2,
+    lastOrderDate: 2022 - 01 - 09,
     totalOrders: 25,
   },
   {
@@ -20,7 +20,7 @@ let users = [
     lastName: "user33",
     age: 22,
     gender: "M",
-    lastOrderDate: 18_2,
+    lastOrderDate: 2022 - 10 - 12,
     totalOrders: 26,
   },
   {
@@ -28,7 +28,7 @@ let users = [
     lastName: "user44",
     age: 22,
     gender: "M",
-    lastOrderDate: 17_2,
+    lastOrderDate: 2022 - 11 - 16,
     totalOrders: 28,
   },
   {
@@ -36,7 +36,7 @@ let users = [
     lastName: "user55",
     age: 22,
     gender: "M",
-    lastOrderDate: 16_2,
+    lastOrderDate: 2022 - 08 - 29,
     totalOrders: 63,
   },
   {
@@ -44,7 +44,7 @@ let users = [
     lastName: "user66",
     age: 22,
     gender: "M",
-    lastOrderDate: 15_2,
+    lastOrderDate: 2022 - 08 - 01,
     totalOrders: 62,
   },
   {
@@ -52,7 +52,7 @@ let users = [
     lastName: "user77",
     age: 22,
     gender: "M",
-    lastOrderDate: 14_2,
+    lastOrderDate: 2022 - 04 - 22,
     totalOrders: 56,
   },
   {
@@ -60,7 +60,7 @@ let users = [
     lastName: "user88",
     age: 22,
     gender: "M",
-    lastOrderDate: 13_2,
+    lastOrderDate: 2022 - 07 - 23,
     totalOrders: 34,
   },
   {
@@ -68,7 +68,7 @@ let users = [
     lastName: "user99",
     age: 22,
     gender: "M",
-    lastOrderDate: 12_2,
+    lastOrderDate: 2022 - 04 - 08,
     totalOrders: 45,
   },
   {
@@ -76,14 +76,14 @@ let users = [
     lastName: "user100",
     age: 22,
     gender: "M",
-    lastOrderDate: 11_2,
+    lastOrderDate: 2022 - 02 - 06,
     totalOrders: 20,
   },
 ];
 
 let question6 = (arr) => {
   let totalOrder = (items) => {
-    return items.totalOrders - items.totalOrders * 2;
+    return items.lastOrderDate - items.lastOrderDate;
   };
 
   let sort = arr.sort(totalOrder);
